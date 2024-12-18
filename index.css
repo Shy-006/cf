@@ -17,21 +17,21 @@
 }
 
 
-.left-section {
+.navbar__left-section {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.custom-icon svg {
+.navbar__left-section--custom-icons svg {
     width: 65%;
     height: 24px;
     color:rgba(144, 164, 174, 1); /* Adjust SVG color */
 }
 
-.logo img {
+.navbar__left-section--logo img {
     height: 35px;
 }
-.separator {
+.navbar__left-section--separator {
     width: 1px;
     height: 30px;
     background-color: #ddd; 
@@ -39,7 +39,7 @@
    
 }
 
-.workspace {
+.navbar__left-section--workspace {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -49,11 +49,11 @@
    
 }
 
-.workspace span {
+.navbar__left-section--workspace span {
     font-size: 16px;
     color: #333;
 }
-.menu-dots {
+.navbar__left-section--workspace--menu-dots {
     width: 18px;
     height: 18px;
     cursor: pointer;
@@ -63,12 +63,12 @@
     left: 30px;
 }
 
-.menu-dots:hover {
+.navbar__left-section--workspace--menu-dots:hover {
     opacity: 1;
 }
 
 
-.upgrade-btn {
+.navbar__left-section--workspace--upgrade-btn {
     background-color: #0073ea;
     color: white;
     border: none;
@@ -79,30 +79,36 @@
     left: 80px;
 }
 
-.upgrade-btn:hover {
+.navbar__left-section--workspace--upgrade-btn:hover {
     background-color: #005bb5;
 }
 
 
-.right-section {
+.navbar__right-section {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.icons {
+.navbar__right-section--icons{
     display: flex;
     gap: 30px;
     padding: 0 1.4286rem
 }
 
-.icon {
+.navbar__right-section--icons--icon {
     font-size: 18px;
     color: #555;
     cursor: pointer;
 }
+.navbar__right-section--icons--separator {
+    width: 1px;
+    height: 30px;
+    background-color: #ddd; 
+    
+}
 
-.profile {
+.navbar__right-section--profile {
     background-color: #4caf50;
     color: white;
     font-weight: bold;
