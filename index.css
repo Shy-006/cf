@@ -50,7 +50,7 @@
 }
 
 .navbar__left-section--workspace span {
-    font-size: 16px;
+    font-size: 15px;
     color: #333;
 }
 .navbar__left-section--workspace--menu-dots {
@@ -69,7 +69,7 @@
 
 
 .navbar__left-section--workspace--upgrade-btn {
-    background-color: #0073ea;
+    background-color: #00a8ff; 
     color: white;
     border: none;
     padding: 6px 12px;
@@ -87,13 +87,14 @@
 .navbar__right-section {
     display: flex;
     align-items: center;
-    gap: 20px;
+   
 }
 
 .navbar__right-section--icons{
     display: flex;
     gap: 30px;
-    padding: 0 1.4286rem
+    padding: 0 1.4286rem;
+    align-items:center;
 }
 
 .navbar__right-section--icons--icon {
@@ -112,11 +113,11 @@
     background-color: #4caf50;
     color: white;
     font-weight: bold;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 12px;
 }
