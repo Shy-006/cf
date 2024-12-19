@@ -7,7 +7,8 @@
     --lightgrey: #555;
     --blue: #005bb5;
     --darkwhite: #ffffff;
-    --black:#212529;
+    --black: #212529;
+    --palegreen: #e9ecef;
 }
 
 * {
@@ -136,35 +137,35 @@
     justify-content: center;
     font-weight: 100;
 }
+
 .sidebar {
     width: 240px;
-    background-color:var(--darkwhite);
+    background-color: var(--darkwhite);
     border-right: 1px solid var(--white);
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     align-items: flex-start;
     width: fit-content;
-  }
-  
-  
-  .sidebar__time-tracker {
+}
+
+
+.sidebar__time-tracker {
     display: flex;
     align-items: center;
-    background-color:#e9ecef;
+    background-color: var(--palegreen);
     padding: 10px 20px;
     border: 1px solid var(--white);
-   
-    
-    
-  }
-  
-  .sidebar__icon {
+
+
+
+}
+
+.sidebar__icon {
     font-size: 20px;
-    color: #6c757d;
     margin-right: 10px;
-  }
-  
-  .sidebar__text {
+}
+
+.sidebar__text {
     font-size: 14px;
     color: var(--black);
-  }
+}
