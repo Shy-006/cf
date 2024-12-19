@@ -1,0 +1,136 @@
+:root {
+    --grey: rgba(144, 164, 174, 1);
+    --white: #ddd;
+    --lightblack: #333;
+    --lightblue: #00a8ff;
+    --lightgreen: #4caf50;
+    --lightgrey: #555;
+    --blue: #005bb5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--white);
+}
+
+
+.navbar__left-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar__left-section--custom-icons svg {
+    width: 65%;
+    height: 24px;
+    color: var(--grey);
+}
+
+.navbar__left-section--logo img {
+    height: 35px;
+}
+
+.navbar__left-section--separator {
+    width: 1px;
+    height: 30px;
+    background-color: var(--white);
+    position: relative;
+
+}
+
+.navbar__left-section--workspace {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 1.4286rem;
+    margin-left: 1.4286rem;
+
+
+}
+
+.navbar__left-section--workspace span {
+    font-size: 15px;
+    color: var(--lightblack);
+}
+
+.navbar__left-section--workspace--menu-dots {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    opacity: 0.7;
+    transform: rotate(90deg);
+    position: relative;
+    left: 30px;
+}
+
+.navbar__left-section--workspace--menu-dots:hover {
+    opacity: 1;
+}
+
+
+.navbar__left-section--workspace--upgrade-btn {
+    background-color: var(--lightblue);
+    color: var(--white);
+    border: none;
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    border-radius: 2px;
+    line-height: 1.5;
+    position: relative;
+    left: 80px;
+}
+
+.navbar__left-section--workspace--upgrade-btn:hover {
+    background-color: var(--blue);
+}
+
+
+.navbar__right-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar__right-section--icons {
+    display: flex;
+    gap: 30px;
+    padding: 0 1.4286rem;
+    align-items: center;
+}
+
+.navbar__right-section--icons--icon {
+    font-size: 18px;
+    color: var(--lightgrey);
+    cursor: pointer;
+}
+
+.navbar__right-section--icons--separator {
+    width: 1px;
+    height: 30px;
+    background-color: var(--white);
+
+}
+
+.navbar__right-section--profile {
+    background-color: var(--lightgreen);
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+}
