@@ -9,6 +9,7 @@
     --darkwhite: #ffffff;
     --black: #212529;
     --palegreen: #e9ecef;
+    --paleblue:#007bff;
 }
 
 * {
@@ -168,4 +169,118 @@
 .sidebar__text {
     font-size: 14px;
     color: var(--black);
+}
+
+.task-timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--darkwhite);
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1450.98px;
+    margin: auto;
+    position: relative;
+    bottom: 900px;
+}
+
+
+.task-timer__input-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: var(--darkwhite);
+    margin-right: 10px;
+}
+
+
+.task-timer__input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: var(--lightgrey);
+    background-color: transparent;
+}
+
+
+.task-timer__button {
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--paleblue);
+    outline: none;
+    border-radius: 3px;
+}
+.task-timer__button--project img{
+    vertical-align: bottom;
+}
+
+.task-timer__button--currency {
+    color: var(--grey);
+    font-size: 24px;
+}
+
+.task-timer__button:hover {
+    background-color: var(--white);
+}
+
+.task-timer__button--start {
+    background-color: var(--paleblue);
+    color: var(--darkwhite);
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    height: 35px;
+}
+
+.task-timer__button--start:hover {
+    background-color: var(--blue);
+}
+
+
+.task-timer__separator {
+    width: 1px;
+    height: 30px;
+    background-color: var(--white);
+}
+
+
+.task-timer__timer {
+    font-size: 20px;
+    margin: 0 10px;
+    color: var(--lightgrey);
+    font-weight: bold;
+}
+
+
+.task-timer__icons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    margin-left: 20px;
+}
+
+
+.task-timer__icon {
+    width: 13px;
+    height: 24px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.task-timer__icon:last-child {
+    margin-bottom: 0; 
+}
+
+.task-timer__icon:hover {
+    opacity: 0.8; 
 }
