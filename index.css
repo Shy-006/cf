@@ -9,7 +9,7 @@
     --darkwhite: #ffffff;
     --black: #212529;
     --palegreen: #e9ecef;
-    --paleblue:#007bff;
+    --paleblue: #007bff;
 }
 
 * {
@@ -140,13 +140,14 @@
 }
 
 .sidebar {
-    width: 240px;
     background-color: var(--darkwhite);
     border-right: 1px solid var(--white);
     height: 100vh;
     display: flex;
     align-items: flex-start;
     width: fit-content;
+    position: relative;
+    bottom: 125px;
 }
 
 
@@ -182,8 +183,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 1450.98px;
     margin: auto;
-    position: relative;
-    bottom: 900px;
+    margin-top: 50px;
 }
 
 
@@ -220,7 +220,8 @@
     outline: none;
     border-radius: 3px;
 }
-.task-timer__button--project img{
+
+.task-timer__button--project img {
     vertical-align: bottom;
 }
 
@@ -264,8 +265,8 @@
 
 .task-timer__icons {
     display: flex;
-    flex-direction: column; 
-    align-items: center;   
+    flex-direction: column;
+    align-items: center;
     margin-left: 20px;
 }
 
@@ -278,9 +279,9 @@
 }
 
 .task-timer__icon:last-child {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .task-timer__icon:hover {
-    opacity: 0.8; 
+    opacity: 0.8;
 }
